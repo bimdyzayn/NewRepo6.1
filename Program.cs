@@ -10,6 +10,8 @@ namespace задание_6._1
     {
         static void Main(string[] args)
         {
+
+
             Console.Write ("Введите предложение:");
            string s = Console.ReadLine();
             string[] str = s.Split(new Char[] { ' ', ',', '.', ':', '!', '?', ';' }, StringSplitOptions.RemoveEmptyEntries);
